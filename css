@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif; /* Cambio de fuente */
+  background-color: #f4f4f9; /* Fondo claro */
+  color: #333; /* Color de texto oscuro */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #2c3e50; /* Color de encabezados */
+}
+
+/* Sidebar */
+#sidebar {
+  background-color: #34495e; /* Fondo oscuro para sidebar */
+  color: #ecf0f1; /* Texto blanco en sidebar */
+  width: 250px;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#sidebar h2 {
+  margin-bottom: 20px;
+}
+
+#sidebar ol {
+  list-style-type: decimal; /* Lista ordenada */
+  padding-left: 20px;
+}
+
+#sidebar ol li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #2980b9; /* Color de fondo de botones */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #3498db; /* Color de hover en botones */
+}
+
+button:active {
+  background-color: #1d6e8f; /* Color de clic en botones */
+}
+
+/* Main Content */
+.main {
+  margin-left: 270px;
+  padding: 20px;
+}
+
+.intro-section {
+  background-color: #ecf0f1;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.intro-section h2 {
+  font-size: 24px;
+  color: #2980b9;
+}
+
+.intro-section p {
+  font-size: 18px;
+}
+
+/* Board and Columns */
+.board {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  width: 23%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.column h3 {
+  margin-top: 0;
+}
+
+.column .note {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.column .note img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.btn-add-note {
+  background-color: #27ae60; /* Botón verde para añadir notas */
+}
+
+.btn-add-note:hover {
+  background-color: #2ecc71; /* Hover sobre el botón verde */
+}
+
+/* Hover y estilos de hipervínculos */
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #8e44ad;
+}
